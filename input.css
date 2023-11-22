@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.accordion-active {
+  display: block;
+}
+
+.accordion-active > div {
+  max-height: 100%;
+  padding: 8px;
+}
