@@ -10,6 +10,12 @@
 
 html {
   font-family: 'Poppins', sans-serif;
+  outline: #1860EB;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F6F7F9;
 }
 
 .container {
@@ -22,6 +28,15 @@ html {
 }
 
 .accordion-active > div {
-  max-height: 100%;
-  padding: 8px;
+  display: block;
 }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(51, 51, 51, 0.9); /* Use rgba to include alpha for transparency */
+  backdrop-filter: blur(12px); /* Adjust the blur radius as needed */
+}
+

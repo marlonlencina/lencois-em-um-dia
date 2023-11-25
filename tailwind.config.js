@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: "#fff",
+        white: "#ffffff",
         black: "#0E0F10",
         blue: "#1860EB",
         yellow: "#F59607",
@@ -12,6 +12,8 @@ module.exports = {
         grayPlaceholder: "#7A838D",
         grayLabel: "#555B62",
         green: "#10AB4E",
+        border: "#D0D0D0",
+        input: "#EAEBED"
       },
       fontSize: {
         sm10: "0.625rem",

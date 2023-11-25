@@ -54,3 +54,19 @@ accordion.forEach((accItem) => {
 accordion.forEach((accItem) => {
    accItem.addEventListener("click", accordionHandleClick); 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const header = document.querySelector("header");
+  const headerHeight = header.clientHeight;
+  let prevScrollPos = window.pageYOffset;
+
+  window.onscroll = function () {
+
+      // Add or remove the 'fixed-header' class based on scroll position
+      if (window.scrollY > headerHeight) {
+          header.classList.add("fixed-header");
+      } else {
+          header.classList.remove("fixed-header");
+      }
+  };
+});

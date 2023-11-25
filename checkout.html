@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lençois em 1 dia - Checkout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+  <div class="w-full bg-blue flex justify-center items-center gap-2 h-10">
+    <img src="./assets/secure-icon.svg" alt="" srcset="">
+    <p class="text-body16 font-medium text-white">Esse é um ambiente seguro.</p>
+  </div>
+
+  <header class="w-full h-[72px] container mx-auto">
+    <div class="h-full w-full flex items-center justify-between px-5 md:px-0 ">
+        <div>
+          <img src="./assets/logo-blue.svg" alt="" srcset="">
+        </div>
+        <a href="/" class="flex items-center gap-2" href="">
+          <img src="./assets/arrow-left.svg" alt="" srcset="">
+          <p class="hidden md:block font-medium text-black text-body16">Voltar para home</p>
+        </a>
+    </div>
+  </header>
+
+  <main class="w-full container mx-auto flex flex-col md:flex-row items-start gap-[32px] mt-[84px] pb-[84px]">
+
+    <div class="md:max-w-[520px] w-full bg-white border-2 border-border md:sticky top-[32px] left-0 right-0 rounded-3xl p-5 md:p-8">
+      <div class="w-full">
+        <img class="w-full object-cover h-[186px] rounded-lg" src="./assets/roteiro-bate-e-votla.png" alt="">
+      </div>
+      <div class="mt-8">
+        <h1 class="text-head24 text-black font-bold">Bate e volta nos Lençóis Maranhenses</h1>
+        <p class="mt-4 font-medium text-gray300 text-body16">Percurso de São Luís para Barreirinhas realizado em van ou micro-ônibus com ar condicionado com saída por volta das 4h da manhã. O trajeto até Barreirinhas dura em média 4 horas. Faremos uma parada de 20 minutos para lanche/café da manhã (não incluso) durante o trajeto.</p>
+        <div class="flex flex-col gap-4 mt-12">
+          <div class="w-full flex items-center justify-between ">
+            <p class="uppercase text-body16 font-medium text-gray300">VALOR POR ADULTO</p>
+            <div class="flex items-center gap-2">
+              <span class="uppercase text-body16 text-blue font-semibold">R$</span>
+              <p class="uppercase text-body16 text-black font-semibold">240,00</p>
+            </div>
+          </div>
+          <div class="w-full flex items-center justify-between ">
+            <p class="uppercase text-body16 font-medium text-gray300">VALOR POR CRIANÇA 5-10 ANOS</p>
+            <div class="flex items-center gap-2">
+              <span class="uppercase text-body16 text-blue font-semibold">R$</span>
+              <p class="uppercase text-body16 text-black font-semibold">120,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8">
+          <span class="text-blue text-sm14 font-semibold">
+            Em até 2x sem juros e em até 10x com juros, no cartão.
+          </span>
+        </div>
+        <p class="mt-4 text-body16 font-normal text-gray300">Bate e volta de 1 dia em Jericoacoara com saídas diárias de Fortaleza. Conheça as belezas do paraíso Cerense.</p>
+      </div>
+    </div>
+
+   <div class="w-full px-5 md:px-0">
+    <form>
+
+      <div class="mt-12">
+        <h1 class="text-black font-semibold text-head32">Cadastre-se</h1>
+        <div class="w-full mt-8 flex flex-col gap-4">
+          <div>
+            <label for="">Nome completo*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite seu nome completo" type="text">
+          </div>
+          <div>
+            <label for="">Seu e-mail*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite seu e-mail" type="text">
+          </div>
+          <div>
+            <label for="">Confirme seu e-mail*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite seu e-mail novamente" type="text">
+          </div>
+          <div>
+            <label for="">Senha*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite sua senha" type="text">
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label for="">CPF*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="000.000.000-00" type="text">
+            </div>
+            <div>
+              <label for="">Telefone*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="+55 (00) 00000-0000" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h1 class="text-black font-semibold text-head32">Endereço</h1>
+        <div class="w-full mt-8 flex flex-col gap-4">
+          <div>
+            <label for="">CEP*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="00000-0000" type="text">
+          </div>
+          <div>
+            <label for="">Rua/Avenida*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite o nome da sua rua ou travessa" type="text">
+          </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label for="">Número*</label>
+                <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="0000" type="text">
+              </div>
+              <div>
+                <label for="">Bairro*</label>
+                <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Centro" type="text">
+              </div>
+            </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label for="">Estado*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="000.000.000-00" type="text">
+            </div>
+            <div>
+              <label for="">Cidade*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="+55 (00) 00000-0000" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h1 class="text-black font-semibold text-head32">Escolha as datas</h1>
+        <div class="w-full mt-8 flex flex-col gap-4">
+          
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label for="">Data de embarque*</label>
+                <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="0000" type="date">
+              </div>
+              <div>
+                <label for="">Data de volta*</label>
+                <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Centro" type="date">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="flex flex-col items-start">
+                <label for="">Adultos:</label>
+                <select class="w-full mt-2 px-4 py-2 rounded-lg bg-[#EAEBED] outline-blue border-2 border-border" name="" id="">
+                  <option value="" disabled>Selecione a Qntd.</option>
+                  <option value="1" >1 Pessoa</option>
+                  <option value="2" >2 Pessoas</option>
+                  <option value="3" >3 Pessoas</option>
+                  <option value="4" >4 Pessoas</option>
+                  <option value="5" >5 Pessoas</option>
+                  <option value="6" >6 Pessoas</option>
+                  <option value="7" >7 Pessoas</option>
+                  <option value="8" >8 Pessoas</option>
+                  <option value="9" >9 Pessoas</option>
+                  <option value="10" >10 Pessoas</option>
+                  <option value="11" >11 Pessoas</option>
+                  <option value="12" >12 Pessoa</option>
+                  <option value="13" >13 Pessoas</option>
+                  <option value="14" >14 Pessoas</option>
+                </select>
+              </div>
+              <div class="flex flex-col items-start">
+                <label for="">Crianças (5 a 10 anos):</label>
+                <select class="w-full mt-2 px-4 py-2 rounded-lg bg-[#EAEBED] outline-blue border-2 border-border" name="" id="">
+                  <option value="" disabled>Selecione a Qntd.</option>
+                  <option value="1" >1 Criança</option>
+                  <option value="2" >2 Crianças</option>
+                  <option value="3" >3 Crianças</option>
+                  <option value="4" >4 Crianças</option>
+                  <option value="5" >5 Crianças</option>
+                  <option value="6" >6 Crianças</option>
+                  <option value="7" >7 Crianças</option>
+                  <option value="8" >8 Crianças</option>
+                  <option value="9" >9 Crianças</option>
+                  <option value="10" >10 Crianças</option>
+                  <option value="11" >11 Crianças</option>
+                  <option value="12" >12 Crianças</option>
+                  <option value="13" >13 Crianças</option>
+                  <option value="14" >14 Crianças</option>
+                  <option value="15" >15 Crianças</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="">Local de embarque*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite seu local de embarque" type="text">
+            </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h1 class="text-black font-semibold text-head32">Pagamento</h1>
+
+        <div class="mt-8">
+          <span>Selecione o seu meio de pagamento</span>
+          <div class="flex flex-wrap items-center gap-4 mt-2">
+            <button class="bg-yellow rounded-lg p-3 md:max-w-[172px] w-full">
+              <p class="text-body16 text-black font-semibold">Cartão de crédito</p>
+            </button>
+            <button class="bg-border rounded-lg p-3 md:max-w-[172px] w-full">
+              <p class="text-body16 text-black font-semibold">Boleto</p>
+            </button>
+            <button class="bg-border rounded-lg p-3 md:max-w-[172px] w-full">
+              <p class="text-body16 text-black font-semibold">PIX</p>
+            </button>
+          </div>
+        </div>
+        <div class="w-full mt-8 flex flex-col gap-4">
+
+
+          <div>
+            <label for="">Nome completo*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="Digite seu nome completo" type="text">
+          </div>
+
+          <div>
+            <label for="">Número do cartão*</label>
+            <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="0000 0000 0000 0000" type="text">
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label for="">Data de validade*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="00/0000" type="text">
+            </div>
+            <div>
+              <label for="">CVV*</label>
+              <input class="w-full px-4 py-3 bg-input rounded-lg mt-1 text-black outline-blue font-medium" placeholder="000" type="text">
+            </div>
+          </div>
+
+          <div class="w-full flex items-center justify-between mt-12">
+            <p class="uppercase text-body16 font-medium text-gray300">Valor total</p>
+            <div class="flex items-center gap-2">
+              <span class="uppercase text-body16 text-blue font-semibold">R$</span>
+              <p class="uppercase text-body16 text-black font-semibold">480,00</p>
+            </div>
+          </div>
+
+          <div class="w-full">
+            <button class="w-full h-[56px] rounded-lg bg-blue flex items-center justify-center gap-4 mt-12">
+              <p class="text-white font-semibold text-button16">Realizar Pagamento</p>
+              <img src="./assets/arrow-right.svg" alt="" srcset="">
+            </button>
+            <p class="font-normal text-center text-sm14 text-gray300 mt-3">O pedido é cancelado automatiamente caso seja não pago em até 3 dias.
+            </p>
+          </div>
+          
+
+        </div>
+      </div>
+
+    </form>
+   </div>
+
+  </main>
+
+ <script defer src="./script.js"></script>
+</body>
+</html>
