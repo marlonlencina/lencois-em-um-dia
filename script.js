@@ -56,7 +56,7 @@ accordion.forEach((accItem) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.querySelector("header");
+  const header = document.querySelector("#header");
   const headerHeight = header.clientHeight;
   let prevScrollPos = window.pageYOffset;
 
